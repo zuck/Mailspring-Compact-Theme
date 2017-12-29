@@ -1,10 +1,11 @@
 {
-  "name": "theme-compact",
+  "name": "ui-compact",
   "title": "Compact Theme",
-  "displayName": "Compact Theme",
+  "displayName": "Compact",
   "theme": "ui",
   "version": "0.1.0",
   "description": "A more compact theme.",
+  "author": "Emanuele Bertoldi <emanuele.bertoldi@gmail.com>",
   "license": "GPL-3.0",
   "engines": {
     "mailspring": "*"

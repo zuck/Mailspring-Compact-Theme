@@ -4,49 +4,28 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/base/ui-variable
 */
 @import "base/ui-variables";
 
-@gray-base: #ffffff;
-@gray-darker: darken(@gray-base, 13.5%);
-@gray-dark: darken(@gray-base, 20%);
-@gray: darken(@gray-base, 33.5%);
-@gray-light: darken(@gray-base, 46.7%);
-@gray-lighter: darken(@gray-base, 92.5%);
-@white: #0a0a0a;
+@spacing-standard: 8px;
 
-@accent-primary: #58b660;
-@accent-primary-dark: darken(@accent-primary, 10%);
+@padding-base-vertical: 4px;
+@padding-base-horizontal: 8px;
 
-@background-primary: #212121;
-@background-off-primary: #212121;
-@background-secondary: #121212;
-@background-tertiary: #6d7987;
+@padding-large-vertical: @padding-base-vertical * 2;
+@padding-large-horizontal: @padding-base-horizontal * 2;
 
-@border-color-primary: lighten(@background-primary, 10%);
-@border-color-secondary: lighten(@background-secondary, 10%);
-@border-color-tertiary: lighten(@background-tertiary, 10%);
-@border-color-divider: @border-color-secondary;
+@padding-small-vertical: @padding-base-vertical * .75;
+@padding-small-horizontal: @padding-base-vertical * .75;
 
-@text-color: #eee;
-@text-color-subtle: fadeout(@text-color, 20%);
-@text-color-very-subtle: fadeout(@text-color, 40%);
-@text-color-inverse: white;
-@text-color-inverse-subtle: fadeout(@text-color-inverse, 20%);
-@text-color-inverse-very-subtle: fadeout(@text-color-inverse, 50%);
-@text-color-heading: #fff;
+@padding-xs-vertical: @padding-base-vertical * .5;
+@padding-xs-horizontal: @padding-base-horizontal * .5;
 
-@text-color-link: @accent-primary;
-@text-color-link-hover: @accent-primary-dark;
-@text-color-link-active: @accent-primary-dark;
+@border-radius-base: 4px;
+@border-radius-large: @border-radius-base * 2;
+@border-radius-small: @border-radius-base * .5;
 
-@btn-default-bg-color: lighten(@background-primary, 5%);
-@dropdown-default-bg-color: #404040;
+@input-font-size: @font-size-base * .75;
 
-@input-bg: #2e2e2e;
-@input-border: @border-color-divider;
-
-@list-bg: #333;
-@list-border: #383838;
-@list-selected-color: @text-color-inverse;
-@list-focused-color: @text-color;
-
-@toolbar-background-color: #121212;
-@panel-background-color: #121212;
+@component-padding: @padding-base-vertical;
+@component-icon-padding: @padding-base-vertical;
+@component-icon-size: @font-size-base;
+@component-line-height: @line-height-computed;
+@component-border-radius: @border-radius-base;
