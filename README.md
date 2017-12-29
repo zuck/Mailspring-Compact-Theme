@@ -2,6 +2,8 @@
 
 A more compact theme for [Mailspring](http://www.getmailspring.com/) email client.
 
+<img src="https://raw.githubusercontent.com/zuck/Mailspring-Compact-Theme/master/screenshot/ui-compact.gif" />
+
 ## Structure
 
 ```
